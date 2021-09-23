@@ -19,6 +19,11 @@ Current attitude are estimate using these equations :
 ![image](https://user-images.githubusercontent.com/88915769/134473301-ad08b44d-2c17-418c-ab19-6aab8a18cc76.png)
 
 
+### Step 3 : Prediction Step ###
+
+
+
+
 # Estimation Project #
 
 Welcome to the estimation project.  In this project, you will be developing the estimation portion of the controller used in the CPP simulator.  By the end of the project, your simulated quad will be flying with your estimator and your custom controller (from the previous project)!
