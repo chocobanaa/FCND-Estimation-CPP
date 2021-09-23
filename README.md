@@ -6,7 +6,7 @@ Standard deviation is calculated using the logged data and set the following val
 - MeasuredStdDev_AccelXY : 0.5
 
 ### Step 2: Attitude Estimation ###
-
+#### UpdateFromIMU() function ####
 
 
 
