@@ -1,7 +1,12 @@
-# implementation # 
+# Implementation # 
 
 ### Step 1: Sensor Noise ###
-stdevX : 0.707 , 
+Standard deviation is calculated using the logged data and set the following values :
+- MeasuredStdDev_GPSPosXY : 0.7
+- MeasuredStdDev_AccelXY : 0.5
+
+### Step 2: Attitude Estimation ###
+
 
 
 
