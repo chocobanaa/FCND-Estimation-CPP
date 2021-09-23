@@ -4,6 +4,9 @@
 Standard deviation is calculated using the logged data and set the following values :
 - MeasuredStdDev_GPSPosXY : 0.7
 - MeasuredStdDev_AccelXY : 0.5
+  
+![image](https://user-images.githubusercontent.com/88915769/134473139-5997a065-8fb0-4ff8-8d66-87695f33fe5c.png)  
+
 
 ### Step 2: Attitude Estimation ###
 #### function UpdateFromIMU()  ####
