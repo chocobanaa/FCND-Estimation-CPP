@@ -52,7 +52,7 @@ Result :
 partial derivative of h(x) :  
 ![image](https://user-images.githubusercontent.com/88915769/134479599-e6e825c8-9799-4efd-ae57-d26f0bcd3fb2.png)
 
-the The controller file is replaced with the my project file.(QuadController.cpp , txt)
+Controller files are replaced with the my project file.(QuadController.cpp , txt)
 
 #### result : ####
 ![image](https://user-images.githubusercontent.com/88915769/134480075-8ace3dd2-362c-40bc-88bc-bf7d722579d9.png)
