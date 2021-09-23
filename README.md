@@ -1,10 +1,11 @@
 # Implementation # 
 
 ### Step 1: Sensor Noise ###
-Standard deviation is calculated using the logged data and set the following values :
+Standard deviation is calculated using the logged data files and set the following values :
 - MeasuredStdDev_GPSPosXY : 0.7
 - MeasuredStdDev_AccelXY : 0.5
   
+  Result :
 ![image](https://user-images.githubusercontent.com/88915769/134473139-5997a065-8fb0-4ff8-8d66-87695f33fe5c.png)  
 
 
@@ -16,6 +17,7 @@ Current attitude are estimate using these equations :
 ![image](https://user-images.githubusercontent.com/88915769/134472602-4b1103ce-0c5f-4a08-af1b-f1a841cea229.png)  
 ![image](https://user-images.githubusercontent.com/88915769/134472616-96b914e0-69be-4415-9ee2-14636e7d72f7.png)  
 
+Result :
 ![image](https://user-images.githubusercontent.com/88915769/134473301-ad08b44d-2c17-418c-ab19-6aab8a18cc76.png)
 
 
