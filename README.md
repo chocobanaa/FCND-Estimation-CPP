@@ -11,8 +11,7 @@ Standard deviation is calculated using the logged data files and set the followi
 
 ### Step 2: Attitude Estimation ###
 #### UpdateFromIMU()  ####
-
-Current attitude are estimate using these equations :  
+Attitude are estimated using these equations :  
 ![image](https://user-images.githubusercontent.com/88915769/134472602-4b1103ce-0c5f-4a08-af1b-f1a841cea229.png)  
 ![image](https://user-images.githubusercontent.com/88915769/134472616-96b914e0-69be-4415-9ee2-14636e7d72f7.png)  
 
@@ -27,6 +26,10 @@ simplistic time integration
 #### GetRbgPrime() ####
 following equation is implemented 
 ![image](https://user-images.githubusercontent.com/88915769/134474956-2af8e2c3-e631-487f-acff-3188215bcdec.png)
+
+#### Result : ####
+![image](https://user-images.githubusercontent.com/88915769/134477804-f2df48f2-feca-43fc-91c2-64172be8fdd0.png)  
+![image](https://user-images.githubusercontent.com/88915769/134477956-b950cad8-951b-4a72-8575-779b84030a5f.png)
 
 # Estimation Project #
 
