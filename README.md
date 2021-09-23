@@ -28,6 +28,14 @@ following equation is implemented
 ![image](https://user-images.githubusercontent.com/88915769/134474956-2af8e2c3-e631-487f-acff-3188215bcdec.png)
 
 #### Predict() ####
+![image](https://user-images.githubusercontent.com/88915769/134480376-65bdeaeb-aaa2-47e2-aece-ecac4a74cfd8.png)
+
+Jacabian function : 
+2) ![image](https://user-images.githubusercontent.com/88915769/134480234-4e4cab2b-6438-42d0-9749-715106dbc215.png)
+![image](https://user-images.githubusercontent.com/88915769/134480271-24351219-a1ff-4ec1-857c-f371d25ca122.png)
+
+![image](https://user-images.githubusercontent.com/88915769/134480598-366885a8-32ed-4f15-ba30-80b31c3346c6.png)
+
 
 #### Result : ####
 ![image](https://user-images.githubusercontent.com/88915769/134477804-f2df48f2-feca-43fc-91c2-64172be8fdd0.png)  
