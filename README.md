@@ -63,9 +63,9 @@ Predict equation:
 So, first I calcuated the Jacobian using following eq :  
 ![image](https://user-images.githubusercontent.com/88915769/134480234-4e4cab2b-6438-42d0-9749-715106dbc215.png)   
 
-And then Cov can be updated using above predict equation ()
+And then Cov can be updated using above predict equation (4)
 
- --> implementation  :
+ --> implementation  :  
 ![image](https://user-images.githubusercontent.com/88915769/134480598-366885a8-32ed-4f15-ba30-80b31c3346c6.png)
 
 
