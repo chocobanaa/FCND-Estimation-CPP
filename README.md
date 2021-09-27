@@ -54,6 +54,10 @@ Implementation :
 
 
 #### Predict() ####
+
+In predict function, I Complete the update the covariance matrix part
+
+
 ![image](https://user-images.githubusercontent.com/88915769/134480376-65bdeaeb-aaa2-47e2-aece-ecac4a74cfd8.png)
 
 In the above equation Jacabian function is : 
