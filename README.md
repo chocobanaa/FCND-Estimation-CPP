@@ -76,11 +76,11 @@ And then Cov can be updated using above predict equation 4:
 ![image](https://user-images.githubusercontent.com/88915769/134477956-b950cad8-951b-4a72-8575-779b84030a5f.png)
 
 ### Step 4: Magnetometer Update ###
-the solution should measure the angle error between the current state and the magnetometer value  
+the solution should measure the angle error between the current state and the magnetometer value 
 
-Magnetometer Update eq : 
+Magnetometer Update eq :  
 ![image](https://user-images.githubusercontent.com/88915769/134942624-9454bf48-860b-4459-8089-9af26da9df25.png)  
-![image](https://user-images.githubusercontent.com/88915769/134943027-1dc5bc17-156d-43b2-b2b5-5148b3cd93f8.png)  
+![image](https://user-images.githubusercontent.com/88915769/134943027-1dc5bc17-156d-43b2-b2b5-5148b3cd93f8.png)   
 
 Implementation :  
 ![image](https://user-images.githubusercontent.com/88915769/134942815-a58c4548-9514-4446-9c11-6c6a36e1be97.png)  
