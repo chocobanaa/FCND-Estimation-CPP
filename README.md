@@ -60,7 +60,7 @@ In the predict function, a task is update the covariance matrix
 Predict equation:
 ![image](https://user-images.githubusercontent.com/88915769/134480376-65bdeaeb-aaa2-47e2-aece-ecac4a74cfd8.png)
 
-So, I fisrt calcuated the Jacobian using eq :
+So, first I calcuated the Jacobian using following eq :  
 ![image](https://user-images.githubusercontent.com/88915769/134480234-4e4cab2b-6438-42d0-9749-715106dbc215.png)   
 
 And then Cov can be updated using above predict equation ()
