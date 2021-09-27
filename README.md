@@ -89,13 +89,18 @@ Result :
 ![image](https://user-images.githubusercontent.com/88915769/134478349-5f9a634a-5d83-4dbf-bb1a-8d3cc74c269f.png)
 
 ### Step 5: Closed Loop + GPS Update ###
+GPS Meas value and ekf state form is same.  
+So simply assign zFromX value to ekfstate and partial derivative is the identity 
+
+ref equation : 
 ![image](https://user-images.githubusercontent.com/88915769/134479704-a0fcfb9c-23b0-4b92-8971-abc3a2d473e9.png)  
 partial derivative of h(x) :  
 ![image](https://user-images.githubusercontent.com/88915769/134479599-e6e825c8-9799-4efd-ae57-d26f0bcd3fb2.png)
 
 ### Step 6: Adding Your Controller ### 
 Controller files are replaced with the my project file.(QuadController.cpp , txt)
-
+Here is the parameter
+![image](https://user-images.githubusercontent.com/88915769/134946115-3bf46c96-a461-414c-9903-13b7a18e06af.png)
 
 #### result : ####
 ![image](https://user-images.githubusercontent.com/88915769/134480075-8ace3dd2-362c-40bc-88bc-bf7d722579d9.png)
