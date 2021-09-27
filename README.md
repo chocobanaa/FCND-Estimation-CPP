@@ -89,8 +89,7 @@ Result :
 ![image](https://user-images.githubusercontent.com/88915769/134478349-5f9a634a-5d83-4dbf-bb1a-8d3cc74c269f.png)
 
 ### Step 5: Closed Loop + GPS Update ###
-GPS Meas value and ekf state form is same.  
-So simply assign zFromX value to ekfstate and partial derivative is the identity 
+GPS Meas value and ekf state form is same. So simply assign zFromX to ekfstate and set partial derivative to identity 
 
 ref equation : 
 ![image](https://user-images.githubusercontent.com/88915769/134479704-a0fcfb9c-23b0-4b92-8971-abc3a2d473e9.png)  
