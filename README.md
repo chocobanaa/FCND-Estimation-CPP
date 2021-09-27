@@ -27,11 +27,12 @@ qt is a quaternion for the Euler angle (Roll,Pitch, Yaw) and dq is a quaternian 
 Then predicted quaternion, qt bar is as follows:  
 ![image](https://user-images.githubusercontent.com/88915769/134472602-4b1103ce-0c5f-4a08-af1b-f1a841cea229.png)  
 
-Implementation : 
+Implementation :  
 ![image](https://user-images.githubusercontent.com/88915769/134932775-db1a7eba-a7db-47ee-9530-043f7e244d90.png)
 
 #### Result: ####
-![image](https://user-images.githubusercontent.com/88915769/134473301-ad08b44d-2c17-418c-ab19-6aab8a18cc76.png)
+![image](https://user-images.githubusercontent.com/88915769/134933576-5f9c8d76-34ed-44b3-b1dc-42ae1c5c4f67.png)  
+![image](https://user-images.githubusercontent.com/88915769/134933653-0938da7d-e89d-4697-8e82-ee77e9efd1e1.png)
 
 ### Step 3 : Prediction Step ###
 #### PredictState() ####
