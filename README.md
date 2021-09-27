@@ -44,8 +44,14 @@ Implementation :
 ![image](https://user-images.githubusercontent.com/88915769/134936097-a499e9f0-0381-4572-a13b-f72f0558933b.png)
 
 #### GetRbgPrime() ####
-following equation is implemented 
+RbgPrime is partial derivative of the Rbg rotation matrix with respect to yaw. 
+
+equation is following:
 ![image](https://user-images.githubusercontent.com/88915769/134474956-2af8e2c3-e631-487f-acff-3188215bcdec.png)
+
+Implementation :
+![image](https://user-images.githubusercontent.com/88915769/134938024-f9691447-e77e-4240-a9c0-503853bbb82e.png)
+
 
 #### Predict() ####
 ![image](https://user-images.githubusercontent.com/88915769/134480376-65bdeaeb-aaa2-47e2-aece-ecac4a74cfd8.png)
