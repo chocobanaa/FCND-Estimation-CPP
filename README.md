@@ -37,14 +37,12 @@ Implementation :
 ### Step 3 : Prediction Step ###
 - CRITERIA : Implement all of the elements of the prediction step for the estimator.
 
-In this section I have to do following three tasks
- : 1) Implemet PredictState function, 2) Implemet a Rgb prime matrix and 3) Calculate predict covriance
+####  Implementation PredictState  ####
 
-#### 1) PredictState ####
+A predicted state can be get by simplistic time integration
+Implementation : 
+![image](https://user-images.githubusercontent.com/88915769/134936097-a499e9f0-0381-4572-a13b-f72f0558933b.png)
 
-
-simplistic time integration
-![image](https://user-images.githubusercontent.com/88915769/134477323-f8ee6068-003f-4e44-8cd7-9d334f35d2bf.png)
 
 #### GetRbgPrime() ####
 following equation is implemented 
