@@ -94,9 +94,9 @@ GPS Meas value and ekf state form is same. So simply assign zFromX to ekfstate a
 ref equation : 
 ![image](https://user-images.githubusercontent.com/88915769/134479704-a0fcfb9c-23b0-4b92-8971-abc3a2d473e9.png)  
 partial derivative of h(x) :  
-![image](https://user-images.githubusercontent.com/88915769/134479599-e6e825c8-9799-4efd-ae57-d26f0bcd3fb2.png)
+![image](https://user-images.githubusercontent.com/88915769/134479599-e6e825c8-9799-4efd-ae57-d26f0bcd3fb2.png)  
 
-Implementation : 
+Implementation :  
 ![image](https://user-images.githubusercontent.com/88915769/134948072-3fb9f6f1-37f2-42e0-9f21-aa5de7103839.png)
 
 #### Result : ####
