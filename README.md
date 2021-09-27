@@ -38,11 +38,10 @@ Implementation :
 - CRITERIA : Implement all of the elements of the prediction step for the estimator.
 
 ####  Implementation PredictState  ####
+A predicted state is get by adding the current state to the amount of time change of state  
 
-A predicted state can be get by simplistic time integration
-Implementation : 
+Implementation :  
 ![image](https://user-images.githubusercontent.com/88915769/134936097-a499e9f0-0381-4572-a13b-f72f0558933b.png)
-
 
 #### GetRbgPrime() ####
 following equation is implemented 
