@@ -23,7 +23,7 @@ So I set the following value obtained by rounding sample cov to the first decima
 
 A small-angle approximation integration method is implemented in sample code.  
 To Improve the performance, I used the a method(Nonlinear Complementary Filter) in ref 7.1.2 ["Estimation for Quadrotors"](https://www.overleaf.com/read/vymfngphcccj)  
-qt is a quaternion for the Euler angle (Roll/Pitch/Yaw) and dq is a quaternian represent angular rates from the IMU in the body frame, 
+qt is a quaternion for the Euler angle (Roll,Pitch, Yaw) and dq is a quaternian represent angular rates from the IMU in the body frame.   
 Then predicted quaternion, qt bar is as follows:  
 ![image](https://user-images.githubusercontent.com/88915769/134472602-4b1103ce-0c5f-4a08-af1b-f1a841cea229.png)  
 
