@@ -21,7 +21,7 @@ So I set the following value obtained by rounding sample cov to the first decima
 
 - CRITERIA : Implement a better rate gyro attitude integration scheme in the UpdateFromIMU() function.  
 
-A small-angle approximation integration method is implemented in sample code.  
+sample code, a small-angle approximation integration method is implemented
 To Improve the performance, I used the a method(Nonlinear Complementary Filter) in ref 7.1.2 ["Estimation for Quadrotors"](https://www.overleaf.com/read/vymfngphcccj)  
 qt is a quaternion for the Euler angle (Roll,Pitch, Yaw) and dq is a quaternian represent angular rates from the IMU in the body frame.   
 Then predicted quaternion, qt bar is as follows:  
@@ -35,6 +35,9 @@ Implementation :
 ![image](https://user-images.githubusercontent.com/88915769/134933653-0938da7d-e89d-4697-8e82-ee77e9efd1e1.png)
 
 ### Step 3 : Prediction Step ###
+- CRITERIA : Implement all of the elements of the prediction step for the estimator.
+
+
 #### PredictState() ####
 simplistic time integration
 ![image](https://user-images.githubusercontent.com/88915769/134477323-f8ee6068-003f-4e44-8cd7-9d334f35d2bf.png)
