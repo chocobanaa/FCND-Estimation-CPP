@@ -37,7 +37,7 @@ Implementation :
 ### Step 3 : Prediction Step ###
 - CRITERIA : Implement all of the elements of the prediction step for the estimator.
 
-####  Implementation PredictState  ####
+####  Implementation PredictState()  ####
 A predicted state is get by adding the current state to the amount of time change of state  
 
 Implementation :  
