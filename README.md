@@ -1,13 +1,17 @@
 # Implementation # 
 
 ### Step 1: Sensor Noise ###
-Standard deviation is calculated using the logged data files and set the following values :
+
+After ran the simulator, I calcuated standard deviation using the logged data samples 
+ -> GPS X data : 0.707 / Accelerometer X data : 0.485 
+
+So I set the following value which was obtained by rounding sample cov to the first decimal place.
 - MeasuredStdDev_GPSPosXY : 0.7
 - MeasuredStdDev_AccelXY : 0.5
   
  #### Result: ####
-![image](https://user-images.githubusercontent.com/88915769/134473139-5997a065-8fb0-4ff8-8d66-87695f33fe5c.png)  
-
+ ![image](https://user-images.githubusercontent.com/88915769/134921969-3d895bf0-9bb4-4364-8df3-18e039777c7b.png) 
+ ![image](https://user-images.githubusercontent.com/88915769/134922148-09b19ef9-3d1e-4428-ac66-0012937917dc.png)
 
 ### Step 2: Attitude Estimation ###
 #### UpdateFromIMU()  ####
