@@ -46,7 +46,7 @@ Implementation :
 #### GetRbgPrime() ####
 RbgPrime is partial derivative of the Rbg rotation matrix with respect to yaw. 
 
-equation is following:
+equation is following in ref (52) ["Estimation for Quadrotors"](https://www.overleaf.com/read/vymfngphcccj)  :  
 ![image](https://user-images.githubusercontent.com/88915769/134474956-2af8e2c3-e631-487f-acff-3188215bcdec.png)
 
 Implementation :
