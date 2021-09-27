@@ -55,7 +55,7 @@ Implementation :
 
 #### Predict() ####
 
-To complete the predict function , the covariance matrix update part should be completed
+To complete the predict function , the covariance update part should be completed
 
 Predict equation:  
 ![image](https://user-images.githubusercontent.com/88915769/134480376-65bdeaeb-aaa2-47e2-aece-ecac4a74cfd8.png)
@@ -76,7 +76,7 @@ And then Cov can be updated using above predict equation 4:
 ![image](https://user-images.githubusercontent.com/88915769/134477956-b950cad8-951b-4a72-8575-779b84030a5f.png)
 
 ### Step 4: Magnetometer Update ###
-the solution should measure the angle error between the current state and the magnetometer value 
+the solution should measure the angle error between the current state and the magnetometer value  
 
 ref eq :  
 ![image](https://user-images.githubusercontent.com/88915769/134942624-9454bf48-860b-4459-8089-9af26da9df25.png)  
@@ -89,7 +89,7 @@ Result :
 ![image](https://user-images.githubusercontent.com/88915769/134478349-5f9a634a-5d83-4dbf-bb1a-8d3cc74c269f.png)
 
 ### Step 5: Closed Loop + GPS Update ###
-GPS Meas value and ekf state form is same. So simply assign zFromX to ekfstate and set partial derivative to identity 
+GPS Meas value and ekf state form is same. So simply assign zFromX to ekfstate and set partial derivative to identity  
 
 ref equation : 
 ![image](https://user-images.githubusercontent.com/88915769/134479704-a0fcfb9c-23b0-4b92-8971-abc3a2d473e9.png)  
