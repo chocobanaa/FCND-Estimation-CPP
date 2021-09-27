@@ -5,7 +5,7 @@
 After ran the simulator, I calcuated standard deviation using the logged data samples  
  -> GPS X data : 0.707 / Accelerometer X data : 0.485 
 
-So I set the following value which was obtained by rounding sample cov to the first decimal place.
+So I set the following value obtained by rounding sample cov to the first decimal place.
 - MeasuredStdDev_GPSPosXY : 0.7
 - MeasuredStdDev_AccelXY : 0.5
   
