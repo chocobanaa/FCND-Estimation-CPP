@@ -1,7 +1,8 @@
 # Implementation # 
 
 ### Step 1: Sensor Noise ###
-#### CRITERIA : Determine the standard deviation of the measurement noise of both GPS X data and Accelerometer X data.####
+
+#### CRITERIA : Determine the standard deviation of the measurement noise of both GPS X data and Accelerometer X data ####
 After ran the simulator, I calcuated standard deviation using the logged data samples  
  -> GPS X data : 0.707 / Accelerometer X data : 0.485 
 
