@@ -55,7 +55,7 @@ Implementation :
 
 #### Predict() ####
 
-A task is update the covariance matrix
+To complete the predict function , the covariance matrix update part should be completed
 
 Predict equation:  
 ![image](https://user-images.githubusercontent.com/88915769/134480376-65bdeaeb-aaa2-47e2-aece-ecac4a74cfd8.png)
@@ -98,7 +98,7 @@ partial derivative of h(x) :
 
 ### Step 6: Adding Your Controller ### 
 Controller files are replaced with the my project file.(QuadController.cpp , txt)
-Here is the parameter
+Here is the parameters
 ![image](https://user-images.githubusercontent.com/88915769/134946115-3bf46c96-a461-414c-9903-13b7a18e06af.png)
 
 #### result : ####
