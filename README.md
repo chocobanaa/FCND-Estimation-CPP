@@ -11,7 +11,7 @@ So I set the following value obtained by rounding sample cov to the first decima
 - MeasuredStdDev_GPSPosXY : 0.7
 - MeasuredStdDev_AccelXY : 0.5
   
- #### Result: PASS ####
+ #### Result ####
 ![image](https://user-images.githubusercontent.com/88915769/134922359-8c94a453-0bb2-47b5-9d13-2ec2147988d3.png)
 ![image](https://user-images.githubusercontent.com/88915769/134922640-032ec4ad-d46c-4539-9628-3b1ce4e29b63.png)
 
