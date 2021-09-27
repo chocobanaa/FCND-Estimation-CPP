@@ -21,8 +21,8 @@ So I set the following value obtained by rounding sample cov to the first decima
 
 - CRITERIA : Implement a better rate gyro attitude integration scheme in the UpdateFromIMU() function.  
 
-A small-angle approximation integration method is implemented in sample code
-To Improve the performance, I used the the method ["Estimation for Quadrotors", 7.1.2 Nonlinear Complementary Filter](https://www.overleaf.com/read/vymfngphcccj)
+A small-angle approximation integration method is implemented in sample code 
+To Improve the performance, I used the the method in ref 7.1.2(Nonlinear Complementary Filter)  ["Estimation for Quadrotors"](https://www.overleaf.com/read/vymfngphcccj)
 
 I used the method 
 Attitude are estimated using these equations :  
