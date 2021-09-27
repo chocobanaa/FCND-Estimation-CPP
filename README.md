@@ -2,7 +2,8 @@
 
 ### Step 1: Sensor Noise ###
 
-- CRITERIA : Determine the standard deviation of the measurement noise of both GPS X data and Accelerometer X data 
+- CRITERIA : Determine the standard deviation of the measurement noise of both GPS X data and Accelerometer X data  
+
 After ran the simulator, I calcuated standard deviation from the logged data samples  
  -> GPS X data : 0.707 / Accelerometer X data : 0.485 
 
@@ -18,7 +19,10 @@ So I set the following value obtained by rounding sample cov to the first decima
 ### Step 2: Attitude Estimation ###
 #### UpdateFromIMU()  ####
 
-Implement a better rate gyro attitude integration scheme in the UpdateFromIMU() function.
+- CRITERIA : Implement a better rate gyro attitude integration scheme in the UpdateFromIMU() function.  
+
+A small-angle approximation integration method is implemented in sample code
+To Improve the performance, I used the the method ["Estimation for Quadrotors", 7.1.2 Nonlinear Complementary Filter](https://www.overleaf.com/read/vymfngphcccj)
 
 I used the method 
 Attitude are estimated using these equations :  
