@@ -4,7 +4,7 @@
 
 - CRITERIA : Determine the standard deviation of the measurement noise of both GPS X data and Accelerometer X data  
 
-After ran the simulator, I calcuated standard deviation from the logged data samples  
+After ran the simulator, I could get standard deviations from logged data samples  
  -> GPS X data : 0.707 / Accelerometer X data : 0.485 
 
 So I set the following value obtained by rounding sample cov to the first decimal place.
@@ -22,7 +22,7 @@ So I set the following value obtained by rounding sample cov to the first decima
 - CRITERIA : Implement a better rate gyro attitude integration scheme in the UpdateFromIMU() function.  
 
 sample code, a small-angle approximation integration method is implemented  
-To Improve the performance, I used the a method(Nonlinear Complementary Filter) in ref 7.1.2 ["Estimation for Quadrotors"](https://www.overleaf.com/read/vymfngphcccj)  
+To Improvement, A method(Nonlinear Complementary Filter) in ref 7.1.2 ["Estimation for Quadrotors"](https://www.overleaf.com/read/vymfngphcccj) is used
 qt is a quaternion for the Euler angle (Roll,Pitch, Yaw) and dq is a quaternian represent angular rates from the IMU in the body frame.   
 Then predicted quaternion, qt bar is as follows:  
 ![image](https://user-images.githubusercontent.com/88915769/134472602-4b1103ce-0c5f-4a08-af1b-f1a841cea229.png)  
