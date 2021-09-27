@@ -4,7 +4,7 @@
 
 - CRITERIA : Determine the standard deviation of the measurement noise of both GPS X data and Accelerometer X data  
 
-After ran the simulator, I could get standard deviations from logged data samples  
+After ran the simulator, I calculated standard deviations from logged data samples  
  -> GPS X data : 0.707 / Accelerometer X data : 0.485 
 
 So I set the following value obtained by rounding sample cov to the first decimal place.
