@@ -69,9 +69,10 @@ And then Cov can be updated using above predict equation 4:
 ![image](https://user-images.githubusercontent.com/88915769/134480598-366885a8-32ed-4f15-ba30-80b31c3346c6.png)
 
 
-####  ####
-
+#### Result : ####
+- 08_PredictState :  
 ![image](https://user-images.githubusercontent.com/88915769/134477804-f2df48f2-feca-43fc-91c2-64172be8fdd0.png)  
+- 09_PredictCovariance :  
 ![image](https://user-images.githubusercontent.com/88915769/134477956-b950cad8-951b-4a72-8575-779b84030a5f.png)
 
 ### Step 4: Magnetometer Update ###
