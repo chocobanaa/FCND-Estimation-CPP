@@ -55,21 +55,22 @@ Implementation :
 
 #### Predict() ####
 
-In the predict function, a task is update the covariance matrix
+A task is update the covariance matrix
 
-Predict equation:
+Predict equation:  
 ![image](https://user-images.githubusercontent.com/88915769/134480376-65bdeaeb-aaa2-47e2-aece-ecac4a74cfd8.png)
 
 So, first I calcuated the Jacobian using following eq :  
 ![image](https://user-images.githubusercontent.com/88915769/134480234-4e4cab2b-6438-42d0-9749-715106dbc215.png)   
 
-And then Cov can be updated using above predict equation (4)
+And then Cov can be updated using above predict equation 4:
 
  --> implementation  :  
 ![image](https://user-images.githubusercontent.com/88915769/134480598-366885a8-32ed-4f15-ba30-80b31c3346c6.png)
 
 
-#### Result : ####
+####  ####
+
 ![image](https://user-images.githubusercontent.com/88915769/134477804-f2df48f2-feca-43fc-91c2-64172be8fdd0.png)  
 ![image](https://user-images.githubusercontent.com/88915769/134477956-b950cad8-951b-4a72-8575-779b84030a5f.png)
 
