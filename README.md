@@ -59,9 +59,8 @@ In the predict function, a task is update the covariance matrix
 
 ![image](https://user-images.githubusercontent.com/88915769/134480376-65bdeaeb-aaa2-47e2-aece-ecac4a74cfd8.png)
 
-In the above equation Jacabian function is : 
-![image](https://user-images.githubusercontent.com/88915769/134480234-4e4cab2b-6438-42d0-9749-715106dbc215.png)
-![image](https://user-images.githubusercontent.com/88915769/134480271-24351219-a1ff-4ec1-857c-f371d25ca122.png)
+Above equation Jacabian function is : 
+![image](https://user-images.githubusercontent.com/88915769/134480234-4e4cab2b-6438-42d0-9749-715106dbc215.png)  
 
  --> implementation  :
 ![image](https://user-images.githubusercontent.com/88915769/134480598-366885a8-32ed-4f15-ba30-80b31c3346c6.png)
