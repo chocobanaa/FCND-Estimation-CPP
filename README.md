@@ -96,9 +96,13 @@ ref equation :
 partial derivative of h(x) :  
 ![image](https://user-images.githubusercontent.com/88915769/134479599-e6e825c8-9799-4efd-ae57-d26f0bcd3fb2.png)
 
+#### Result : ####
+![image](https://user-images.githubusercontent.com/88915769/134947777-ab1b66e0-17c0-4be4-8796-0c002df6f100.png)  
+![image](https://user-images.githubusercontent.com/88915769/134947674-fd8f3b28-b195-4429-83b9-0e54e2322b12.png)
+
 ### Step 6: Adding Your Controller ### 
 Controller files are replaced with the my project file.(QuadController.cpp , txt)  
-Here is the parameters  
+Here is the my parameters  
 ![image](https://user-images.githubusercontent.com/88915769/134946115-3bf46c96-a461-414c-9903-13b7a18e06af.png)  
 
 #### result : ####
